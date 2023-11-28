@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+}
+footer {
+    margin-top: 10px;
+    background: #cec4ae;
+    line-height: 50px;
+    /*padding: 50px;*/
+    text-align: center;
+    color: rgba(77, 75, 202, 0.8);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    font-size: 16pt;
+}
+h1{
+    color: rgba(91, 89, 197, 0.8);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+    color: rgba(91, 89, 197, 0.8);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+fieldset{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 20px;
+    background: #e0dacc;
+    color: rgba(71, 69, 155, 0.8);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+    border-radius: 2%;
+}
+
+input[type="submit"]{
+    color: rgba(71, 69, 155, 0.8);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11pt;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    background: #e4e2de;
+    border-radius: 1px 10%;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"]{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(68, 52, 44, 0.9);
+    border: 1px solid rgba(112, 92, 82, 0.9);
+    margin-bottom: 5px;
+}
+
+select{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(68, 52, 44, 0.9);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(112, 92, 82, 0.9);
+}
+
+textarea{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(68, 52, 44, 0.9);
+    border: 1px solid rgba(112, 92, 82, 0.9);
+    border-radius: 2%;
+}
+
+code pre {
+    background-color:#DDDDFF;
+    border: solid 1px #32a1ce;
+    font-size: 18pt;
+    color: #002060;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color: #002060;
+}
+
+a:active{
+    color: red;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    color: #00ff00;
+    background-color: rgb(91, 91, 97);
+}
+
+.e-mail::before{
+    content: '\2709';} /*Символ на Юникоде*/
+    
+.e-mail::first-letter{
+    font-size: 130%;
+    color: #00ff00;
+}
+
+.e-mail2 {
+    text-align: center;
+}
