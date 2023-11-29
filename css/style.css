@@ -110,3 +110,69 @@ a:hover{
 .e-mail2 {
     text-align: center;
 }
+
+table {
+    table-layout: fixed;
+    vertical-align: center;
+    text-align: center;
+    border: #002060 1px solid;
+    border-spacing: 1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tr, td, th {
+    border: #002060 1px solid;
+    padding: 3px;
+    font-weight: 600; /*жирность шрифта*/
+}
+
+tr:nth-child(2n) {
+    background: #DDDDFF;  /*заливка четных элементов*/
+}
+
+li:first-child{
+    font-weight: bold;
+}
+
+li:last-child {
+    font-style: italic;
+}
+
+h4{
+    display: inline-block;
+    width: 50%;
+
+}
+
+.container {
+    background: #e4e2de;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; /*только для display: flex; */
+}
+
+.block1 {
+    width: 20%;
+    height: 50px;
+    background: #00ff00;
+}
+
+.block2 {
+    width: 20%;
+    height: 100px;
+    background: #e5ff00;
+}
+
+.block3 {
+    width: 20%;
+    height: 150px;
+    background: #ea00ff;
+}
+
+.block4 {
+    width: 20%;
+    height: 200px;
+    background: #0011ff;
+}
