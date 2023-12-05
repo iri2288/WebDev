@@ -48,7 +48,7 @@ footer {
 }
 
 p {
-    
+
 }
 
 h1{
@@ -206,7 +206,7 @@ h4{
 
 .block3 {
     width: 20%;
-    height: 150px;
+    height: 100px;
     background: #ea00ff;
 }
 
@@ -214,4 +214,37 @@ h4{
     width: 20%;
     height: 200px;
     background: #0011ff;
+}
+
+.blocks {
+    position: absolute;
+}
+
+.block5, .block6 {
+    width: 100px;
+    height: 100px;
+}
+
+.block5 {
+    position: relative;
+    background: rgba(112, 92, 82, 0.5);
+    left: 100px;
+    top: 100px;
+    opacity: 60%;
+    z-index: 99;
+}
+
+.block6 {
+    position: relative;
+    left: 150px;
+    background: #e5ff00;
+    
+}
+
+.block7 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 25px;
+    background: #ea00ff;
 }
